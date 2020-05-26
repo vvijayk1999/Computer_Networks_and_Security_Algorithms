@@ -36,15 +36,15 @@ int main()
 				sleep(1);
 				if(pszrn)
 				{
-					if(pszrn==0)
-						printf("\n Bucket is empty");
-					else
-					{
+					///if(pszrn==0)
+					///	printf("\n Bucket is empty");
+					//else
+					//{
 						if(pszrn>=orate)
 							printf("%d Bytes are transmitted",orate);
 						else
 							printf("\n %d Bytes transmitted ",pszrn);
-					}
+					//}
 					if(pszrn<=orate)
 						pszrn=0;
 					else
